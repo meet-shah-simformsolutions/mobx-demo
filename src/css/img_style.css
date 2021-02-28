@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    border: 2px solid red;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    border: none;
+    margin-top: 20px;
+}
+.container{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+} 
+.container > img{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    border-radius: 20px;
+}
+.reaction{
+    margin: auto;
+    padding: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 10px;
+        height:50px;
+        /* border: 1px solid black; */
+
+}
+.reaction > .like{
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgb(214, 29, 85);
+    float: left;
+    margin-right: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.reaction > .comment{
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgb(3, 14, 165);
+    float: right;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+.like_btn{
+    width: 100%;
+
+        height:50px;
+        border: 1px solid black;
+        margin: auto;
+    padding: auto;
+        display: flex;
+        margin: 10px;
+        border-radius: 20px;
+}
+.like_btn > .btn{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(0, 128, 0, 0.74);
+    color: white;
+    letter-spacing: 2px;
+}
+ .comment_text{
+    width: 100%;
+
+    height:50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+padding: auto;
+    display: flex;
+    margin: 10px;
+}
+ .comment_text > input{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.comment_text >  button{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+
+.comment_list{
+    width: 100%;
+
+    height:fit-content;
+    border: 1px dashed rgb(3, 14, 165);
+    border-radius: 20px;
+    margin: auto;
+padding: auto;
+    display: flex;
+}
+
+ul{
+    width: 100%;
+    margin: 10px;
+}
+ul > li {
+    font-size: 20px;
+
+}
+.delete, .edit{
+    float: right;
+    font: 8px;
+    margin-right: 5px;
+}
